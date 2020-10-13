@@ -17,7 +17,7 @@ const Tab = createBottomTabNavigator();
 function Home() {
   return (
     <Tab.Navigator
-      initialRouteName="DashboardSantri"
+      initialRouteName="DzikirPagi"
       screenOptions={({route}) => ({
         tabBarIcon: ({focused, color, size}) => {
           let iconName;
